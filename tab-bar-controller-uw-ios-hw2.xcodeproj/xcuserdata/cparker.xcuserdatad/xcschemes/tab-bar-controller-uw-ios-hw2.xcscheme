@@ -5,6 +5,36 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "87A98A681AE5E2A700C74935"
+               BuildableName = "tab-bar-controller-uw-ios-hw2.app"
+               BlueprintName = "tab-bar-controller-uw-ios-hw2"
+               ReferencedContainer = "container:tab-bar-controller-uw-ios-hw2.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "87A98A811AE5E2A700C74935"
+               BuildableName = "tab-bar-controller-uw-ios-hw2Tests.xctest"
+               BlueprintName = "tab-bar-controller-uw-ios-hw2Tests"
+               ReferencedContainer = "container:tab-bar-controller-uw-ios-hw2.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -12,7 +42,26 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "87A98A811AE5E2A700C74935"
+               BuildableName = "tab-bar-controller-uw-ios-hw2Tests.xctest"
+               BlueprintName = "tab-bar-controller-uw-ios-hw2Tests"
+               ReferencedContainer = "container:tab-bar-controller-uw-ios-hw2.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "87A98A681AE5E2A700C74935"
+            BuildableName = "tab-bar-controller-uw-ios-hw2.app"
+            BlueprintName = "tab-bar-controller-uw-ios-hw2"
+            ReferencedContainer = "container:tab-bar-controller-uw-ios-hw2.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -23,6 +72,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "87A98A681AE5E2A700C74935"
+            BuildableName = "tab-bar-controller-uw-ios-hw2.app"
+            BlueprintName = "tab-bar-controller-uw-ios-hw2"
+            ReferencedContainer = "container:tab-bar-controller-uw-ios-hw2.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -32,6 +90,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "87A98A681AE5E2A700C74935"
+            BuildableName = "tab-bar-controller-uw-ios-hw2.app"
+            BlueprintName = "tab-bar-controller-uw-ios-hw2"
+            ReferencedContainer = "container:tab-bar-controller-uw-ios-hw2.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

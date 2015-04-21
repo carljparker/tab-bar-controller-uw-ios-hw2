@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DataViewController.h
 //  tab-bar-controller-uw-ios-hw2
 //
 //  Created by Parker, Carl (HBO) on 4/20/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DataViewController : UIViewController
 
 @end
-
