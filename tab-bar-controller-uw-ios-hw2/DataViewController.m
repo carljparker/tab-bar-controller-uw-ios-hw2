@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 Parker, Carl (HBO). All rights reserved.
 //
 
+#import "AppDelegate.h"
 #import "DataViewController.h"
 
 @interface DataViewController ()
@@ -29,10 +30,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.redCount = @"1";
-    
-    self.redCountDisplay.text = self.redCount;
-    
+}
+
+- (void)viewDidAppear:(BOOL)animated;
+{
+    AppDelegate *dG = [UIApplication sharedApplication].delegate;
+    self.redCountDisplay.text = [NSString stringWithFormat:@"%@", dG.colorCounter.redCount];
 }
 
 

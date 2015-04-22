@@ -10,6 +10,5 @@
 
 @interface DataViewController : UIViewController
 
-@property  (nonatomic, copy) NSString *redCount;
 
 @end

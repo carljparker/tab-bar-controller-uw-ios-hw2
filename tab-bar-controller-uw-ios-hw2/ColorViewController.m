@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 Parker, Carl (HBO). All rights reserved.
 //
 
+#import "AppDelegate.h"
 #import "ColorViewController.h"
 #import "RedViewController.h"
 
@@ -33,6 +34,10 @@
 - (IBAction)redDidTap:(id)sender {
     
     RedViewController *redVC = [[RedViewController alloc] init];
+    
+    AppDelegate *dG = [UIApplication sharedApplication].delegate;
+    
+    dG.colorCounter.redCount = [NSNumber numberWithInt:2];
     
     [self presentViewController:redVC
                        animated:YES

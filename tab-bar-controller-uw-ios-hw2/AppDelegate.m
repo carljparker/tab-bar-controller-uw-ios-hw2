@@ -31,6 +31,8 @@
     tabBarController.viewControllers = @[colorVC, dataVC];
     self.window.rootViewController = tabBarController;
     
+    self.colorCounter = [[ColorCounter alloc] init];
+    
     [self.window makeKeyAndVisible];
     
     return YES;
