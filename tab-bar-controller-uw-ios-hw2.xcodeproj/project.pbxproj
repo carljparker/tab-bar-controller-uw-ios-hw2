@@ -20,6 +20,8 @@
 		87A98AA11AE5ED2000C74935 /* colors@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A98A9D1AE5ED2000C74935 /* colors@2x.png */; };
 		87A98AA21AE5ED2000C74935 /* data.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A98A9E1AE5ED2000C74935 /* data.png */; };
 		87A98AA31AE5ED2000C74935 /* data@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A98A9F1AE5ED2000C74935 /* data@2x.png */; };
+		87A98AA71AE726A800C74935 /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A98AA51AE726A800C74935 /* RedViewController.m */; };
+		87A98AA81AE726A800C74935 /* RedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A98AA61AE726A800C74935 /* RedViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		87A98A9D1AE5ED2000C74935 /* colors@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colors@2x.png"; sourceTree = "<group>"; };
 		87A98A9E1AE5ED2000C74935 /* data.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = data.png; sourceTree = "<group>"; };
 		87A98A9F1AE5ED2000C74935 /* data@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "data@2x.png"; sourceTree = "<group>"; };
+		87A98AA41AE726A800C74935 /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		87A98AA51AE726A800C74935 /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
+		87A98AA61AE726A800C74935 /* RedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +107,9 @@
 				87A98A971AE5E4D300C74935 /* DataViewController.h */,
 				87A98A981AE5E4D300C74935 /* DataViewController.m */,
 				87A98A991AE5E4D300C74935 /* DataViewController.xib */,
+				87A98AA41AE726A800C74935 /* RedViewController.h */,
+				87A98AA51AE726A800C74935 /* RedViewController.m */,
+				87A98AA61AE726A800C74935 /* RedViewController.xib */,
 				87A98A791AE5E2A700C74935 /* Images.xcassets */,
 				87A98A7B1AE5E2A700C74935 /* LaunchScreen.xib */,
 				87A98A6C1AE5E2A700C74935 /* Supporting Files */,
@@ -219,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87A98AA81AE726A800C74935 /* RedViewController.xib in Resources */,
 				87A98AA01AE5ED2000C74935 /* colors.png in Resources */,
 				87A98A9B1AE5E4D300C74935 /* DataViewController.xib in Resources */,
 				87A98AA31AE5ED2000C74935 /* data@2x.png in Resources */,
@@ -248,6 +257,7 @@
 				87A98A721AE5E2A700C74935 /* AppDelegate.m in Sources */,
 				87A98A6F1AE5E2A700C74935 /* main.m in Sources */,
 				87A98A951AE5E46600C74935 /* ColorViewController.m in Sources */,
+				87A98AA71AE726A800C74935 /* RedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
