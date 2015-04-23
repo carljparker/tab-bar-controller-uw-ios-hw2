@@ -7,11 +7,16 @@
 //
 
 #import "AppDelegate.h"
+#import "ColorCounter.h"
 #import "DataViewController.h"
 
 @interface DataViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextField *redCountDisplay;
+
+@property (weak, nonatomic) IBOutlet UITextField *greenCountDisplay;
+
+@property (weak, nonatomic) IBOutlet UITextField *blueCountDisplay;
 
 @end
 
@@ -32,10 +37,23 @@
     
 }
 
+- (void) updateColorCounts:(ColorCounter *) counter;
+{
+
+    self.redCountDisplay.text   = [NSString stringWithFormat:@"%d", counter.redCount];
+    self.greenCountDisplay.text = [NSString stringWithFormat:@"%d", counter.greenCount];
+    self.blueCountDisplay.text  = [NSString stringWithFormat:@"%d", counter.blueCount];
+    
+}
+
 - (void)viewDidAppear:(BOOL)animated;
 {
+
+    // initialize all the displayed counts
     AppDelegate *dG = [UIApplication sharedApplication].delegate;
-    self.redCountDisplay.text = [NSString stringWithFormat:@"%d", dG.colorCounter.redCount];
+
+    [self updateColorCounts:dG.colorCounter];
+
 }
 
 - (IBAction)resetCounts:(id)sender {
@@ -46,7 +64,13 @@
     
     [ac addAction:[UIAlertAction actionWithTitle:@"Reset"
                                            style:UIAlertActionStyleDestructive
-                                         handler:nil]];
+                                         handler:^(UIAlertAction *action) {
+                                             
+                                             AppDelegate *dG = [UIApplication sharedApplication].delegate;
+                                             [dG.colorCounter resetCounts];
+                                             [self updateColorCounts:dG.colorCounter];
+
+                                         }]];
 
     [ac addAction:[UIAlertAction actionWithTitle:@"Cancel"
                                            style:UIAlertActionStyleCancel

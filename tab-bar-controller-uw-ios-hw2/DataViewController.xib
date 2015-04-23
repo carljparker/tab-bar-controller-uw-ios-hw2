@@ -6,6 +6,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DataViewController">
             <connections>
+                <outlet property="blueCountDisplay" destination="9Co-yp-hPW" id="Sh0-w2-ylH"/>
+                <outlet property="greenCountDisplay" destination="YdT-mo-jLt" id="j78-tn-6Kb"/>
                 <outlet property="redCountDisplay" destination="6S5-h1-PFH" id="XB7-vI-HBR"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
