@@ -10,6 +10,6 @@
 
 @interface RedViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UITextField *presentCount;
+@property (nonatomic) int presentCountVal;
 
 @end

@@ -33,11 +33,13 @@
 
 - (IBAction)redDidTap:(id)sender {
     
-    RedViewController *redVC = [[RedViewController alloc] init];
-    
     AppDelegate *dG = [UIApplication sharedApplication].delegate;
     
-    dG.colorCounter.redCount = [NSNumber numberWithInt:2];
+    dG.colorCounter.redCount++;
+    
+    RedViewController *redVC = [[RedViewController alloc] init];
+    
+    redVC.presentCountVal = dG.colorCounter.redCount;
     
     [self presentViewController:redVC
                        animated:YES

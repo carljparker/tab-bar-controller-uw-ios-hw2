@@ -35,7 +35,7 @@
 - (void)viewDidAppear:(BOOL)animated;
 {
     AppDelegate *dG = [UIApplication sharedApplication].delegate;
-    self.redCountDisplay.text = [NSString stringWithFormat:@"%@", dG.colorCounter.redCount];
+    self.redCountDisplay.text = [NSString stringWithFormat:@"%d", dG.colorCounter.redCount];
 }
 
 
