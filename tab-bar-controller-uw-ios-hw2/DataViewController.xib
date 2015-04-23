@@ -24,6 +24,9 @@
                     <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                         <rect key="frame" x="157" y="565" width="86" height="42"/>
                     </variation>
+                    <connections>
+                        <action selector="resetCounts:" destination="-1" eventType="touchUpInside" id="yL7-xu-bM9"/>
+                    </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aCc-Oa-JMo">
                     <rect key="frame" x="108" y="45" width="42" height="21"/>

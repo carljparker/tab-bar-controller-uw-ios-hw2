@@ -22,6 +22,7 @@
 		87A98AA31AE5ED2000C74935 /* data@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A98A9F1AE5ED2000C74935 /* data@2x.png */; };
 		87A98AA71AE726A800C74935 /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A98AA51AE726A800C74935 /* RedViewController.m */; };
 		87A98AA81AE726A800C74935 /* RedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A98AA61AE726A800C74935 /* RedViewController.xib */; };
+		87A98AAE1AE7545200C74935 /* ColorCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A98AAD1AE7545200C74935 /* ColorCounter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		87A98AA41AE726A800C74935 /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
 		87A98AA51AE726A800C74935 /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
 		87A98AA61AE726A800C74935 /* RedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedViewController.xib; sourceTree = "<group>"; };
+		87A98AAC1AE7545200C74935 /* ColorCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorCounter.h; path = ../ColorCounter.h; sourceTree = "<group>"; };
+		87A98AAD1AE7545200C74935 /* ColorCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorCounter.m; path = ../ColorCounter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 		87A98A6B1AE5E2A700C74935 /* tab-bar-controller-uw-ios-hw2 */ = {
 			isa = PBXGroup;
 			children = (
+				87A98AAC1AE7545200C74935 /* ColorCounter.h */,
+				87A98AAD1AE7545200C74935 /* ColorCounter.m */,
 				87A98A701AE5E2A700C74935 /* AppDelegate.h */,
 				87A98A711AE5E2A700C74935 /* AppDelegate.m */,
 				87A98A921AE5E46600C74935 /* ColorViewController.h */,
@@ -255,6 +260,7 @@
 			files = (
 				87A98A9A1AE5E4D300C74935 /* DataViewController.m in Sources */,
 				87A98A721AE5E2A700C74935 /* AppDelegate.m in Sources */,
+				87A98AAE1AE7545200C74935 /* ColorCounter.m in Sources */,
 				87A98A6F1AE5E2A700C74935 /* main.m in Sources */,
 				87A98A951AE5E46600C74935 /* ColorViewController.m in Sources */,
 				87A98AA71AE726A800C74935 /* RedViewController.m in Sources */,

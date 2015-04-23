@@ -38,5 +38,22 @@
     self.redCountDisplay.text = [NSString stringWithFormat:@"%d", dG.colorCounter.redCount];
 }
 
+- (IBAction)resetCounts:(id)sender {
+    
+    UIAlertController *ac = [UIAlertController alertControllerWithTitle:@"Count Reset"
+                                                                message:@"Reset All Color Counts?"
+                                                         preferredStyle:UIAlertControllerStyleActionSheet];
+    
+    [ac addAction:[UIAlertAction actionWithTitle:@"Reset"
+                                           style:UIAlertActionStyleDestructive
+                                         handler:nil]];
+
+    [ac addAction:[UIAlertAction actionWithTitle:@"Cancel"
+                                           style:UIAlertActionStyleCancel
+                                         handler:nil]];
+    
+    [self presentViewController:ac animated:YES completion:nil];
+    
+}
 
 @end
