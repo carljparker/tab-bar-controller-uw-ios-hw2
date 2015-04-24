@@ -11,6 +11,7 @@
 #import "RedViewController.h"
 #import "GreenViewController.h"
 #import "BlueViewController.h"
+#import "XColorViewController.h"
 
 @interface ColorViewController ()
 
@@ -79,6 +80,18 @@
     [self presentViewController:blueVC
                        animated:YES
                      completion:nil];
+}
+
+
+- (IBAction)punkDidTap:(id)sender {
+
+    XColorViewController *xVC = [[XColorViewController alloc] init];
+    
+    [self presentViewController:xVC
+                       animated:YES
+                     completion:nil];
+
+    
 }
 
 @end
