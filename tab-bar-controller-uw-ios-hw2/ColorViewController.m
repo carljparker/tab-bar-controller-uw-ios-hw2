@@ -36,13 +36,13 @@
 
 - (IBAction)redDidTap:(id)sender {
     
-    AppDelegate *dG = [UIApplication sharedApplication].delegate;
+    AppDelegate *aD = [UIApplication sharedApplication].delegate;
     
-    dG.colorCounter.redCount++;
+    aD.colorCounter.redCount++;
     
     RedViewController *redVC = [[RedViewController alloc] init];
     
-    redVC.presentCountVal = dG.colorCounter.redCount;
+    redVC.presentCountVal = aD.colorCounter.redCount;
     
     [self presentViewController:redVC
                        animated:YES
@@ -52,13 +52,13 @@
 - (IBAction)greenDidTap:(id)sender {
     
     
-    AppDelegate *dG = [UIApplication sharedApplication].delegate;
+    AppDelegate *aD = [UIApplication sharedApplication].delegate;
     
-    dG.colorCounter.greenCount++;
+    aD.colorCounter.greenCount++;
     
     GreenViewController *greenVC = [[GreenViewController alloc] init];
     
-    greenVC.presentCountVal = dG.colorCounter.greenCount;
+    greenVC.presentCountVal = aD.colorCounter.greenCount;
     
     [self presentViewController:greenVC
                        animated:YES
@@ -69,13 +69,13 @@
 - (IBAction)blueDidTap:(id)sender {
     
     
-    AppDelegate *dG = [UIApplication sharedApplication].delegate;
+    AppDelegate *aD = [UIApplication sharedApplication].delegate;
     
-    dG.colorCounter.blueCount++;
+    aD.colorCounter.blueCount++;
     
     BlueViewController *blueVC = [[BlueViewController alloc] init];
     
-    blueVC.presentCountVal = dG.colorCounter.blueCount;
+    blueVC.presentCountVal = aD.colorCounter.blueCount;
     
     [self presentViewController:blueVC
                        animated:YES

@@ -50,9 +50,9 @@
 {
 
     // initialize all the displayed counts
-    AppDelegate *dG = [UIApplication sharedApplication].delegate;
+    AppDelegate *aD = [UIApplication sharedApplication].delegate;
 
-    [self updateColorCounts:dG.colorCounter];
+    [self updateColorCounts:aD.colorCounter];
 
 }
 
@@ -66,9 +66,9 @@
                                            style:UIAlertActionStyleDestructive
                                          handler:^(UIAlertAction *action) {
                                              
-                                             AppDelegate *dG = [UIApplication sharedApplication].delegate;
-                                             [dG.colorCounter resetCounts];
-                                             [self updateColorCounts:dG.colorCounter];
+                                             AppDelegate *aD = [UIApplication sharedApplication].delegate;
+                                             [aD.colorCounter resetCounts];
+                                             [self updateColorCounts:aD.colorCounter];
 
                                          }]];
 
