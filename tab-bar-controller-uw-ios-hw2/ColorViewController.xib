@@ -46,6 +46,9 @@
                     <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                         <rect key="frame" x="231" y="224" width="46" height="30"/>
                     </variation>
+                    <connections>
+                        <action selector="blueDidTap:" destination="-1" eventType="touchUpInside" id="Z03-2G-m82"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
