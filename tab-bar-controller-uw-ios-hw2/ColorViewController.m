@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "ColorViewController.h"
 #import "RedViewController.h"
+#import "GreenViewController.h"
+#import "BlueViewController.h"
 
 @interface ColorViewController ()
 
@@ -46,6 +48,37 @@
                      completion:nil];
 }
 
+- (IBAction)greenDidTap:(id)sender {
+    
+    
+    AppDelegate *dG = [UIApplication sharedApplication].delegate;
+    
+    dG.colorCounter.greenCount++;
+    
+    GreenViewController *greenVC = [[GreenViewController alloc] init];
+    
+    greenVC.presentCountVal = dG.colorCounter.greenCount;
+    
+    [self presentViewController:greenVC
+                       animated:YES
+                     completion:nil];
+}
 
+
+- (IBAction)blueDidTap:(id)sender {
+    
+    
+    AppDelegate *dG = [UIApplication sharedApplication].delegate;
+    
+    dG.colorCounter.blueCount++;
+    
+    BlueViewController *blueVC = [[BlueViewController alloc] init];
+    
+    blueVC.presentCountVal = dG.colorCounter.blueCount;
+    
+    [self presentViewController:blueVC
+                       animated:YES
+                     completion:nil];
+}
 
 @end

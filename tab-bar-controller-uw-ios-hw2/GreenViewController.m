@@ -10,9 +10,9 @@
 
 @interface GreenViewController ()
 
-@end
+@property (weak, nonatomic) IBOutlet UITextField *presentCount;
 
-@implementation GreenViewController
+@end
 
 
 @implementation GreenViewController
@@ -30,5 +30,10 @@
     self.presentCount.text = [NSString stringWithFormat:@"%d", self.presentCountVal];
 }
 
+- (IBAction)dismissDidTap:(id)sender {
+    
+    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+
+}
 
 @end

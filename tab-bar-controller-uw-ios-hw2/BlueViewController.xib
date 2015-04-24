@@ -4,8 +4,9 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GreenViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BlueViewController">
             <connections>
+                <outlet property="presentCount" destination="We3-Sz-n3D" id="wP7-yr-i7A"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -22,6 +23,9 @@
                     <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                         <rect key="frame" x="168" y="624" width="64" height="30"/>
                     </variation>
+                    <connections>
+                        <action selector="dismissDidTap:" destination="-1" eventType="touchUpInside" id="bZJ-kN-Br2"/>
+                    </connections>
                 </button>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="We3-Sz-n3D">
                     <rect key="frame" x="0.0" y="-30" width="97" height="30"/>

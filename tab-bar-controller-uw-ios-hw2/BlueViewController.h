@@ -1,5 +1,5 @@
 //
-//  GreenViewController.h
+//  BlueViewController.h
 //  tab-bar-controller-uw-ios-hw2
 //
 //  Created by Parker, Carl (HBO) on 4/23/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GreenViewController : UIViewController
+@interface BlueViewController : UIViewController
 
 @property (nonatomic) int presentCountVal;
 
