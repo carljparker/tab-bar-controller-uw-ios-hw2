@@ -27,6 +27,9 @@
 		87BA4CB21AE92A740000F71A /* GreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87BA4CB01AE92A740000F71A /* GreenViewController.xib */; };
 		87BA4CB61AE92D6F0000F71A /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BA4CB41AE92D6F0000F71A /* BlueViewController.m */; };
 		87BA4CB71AE92D6F0000F71A /* BlueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87BA4CB51AE92D6F0000F71A /* BlueViewController.xib */; };
+		87BA4CBC1AEAA5F10000F71A /* XColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BA4CBA1AEAA5F10000F71A /* XColorViewController.m */; };
+		87BA4CBD1AEAA5F10000F71A /* XColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87BA4CBB1AEAA5F10000F71A /* XColorViewController.xib */; };
+		87BA4CC01AEAA7E40000F71A /* UIColor+UWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BA4CBF1AEAA7E40000F71A /* UIColor+UWExtensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,11 @@
 		87BA4CB31AE92D6F0000F71A /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
 		87BA4CB41AE92D6F0000F71A /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
 		87BA4CB51AE92D6F0000F71A /* BlueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueViewController.xib; sourceTree = "<group>"; };
+		87BA4CB91AEAA5F10000F71A /* XColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XColorViewController.h; sourceTree = "<group>"; };
+		87BA4CBA1AEAA5F10000F71A /* XColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XColorViewController.m; sourceTree = "<group>"; };
+		87BA4CBB1AEAA5F10000F71A /* XColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XColorViewController.xib; sourceTree = "<group>"; };
+		87BA4CBE1AEAA7E40000F71A /* UIColor+UWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+UWExtensions.h"; sourceTree = "<group>"; };
+		87BA4CBF1AEAA7E40000F71A /* UIColor+UWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UWExtensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +171,11 @@
 		87BA4CB81AE92D9B0000F71A /* ColorModalVC */ = {
 			isa = PBXGroup;
 			children = (
+				87BA4CB91AEAA5F10000F71A /* XColorViewController.h */,
+				87BA4CBA1AEAA5F10000F71A /* XColorViewController.m */,
+				87BA4CBE1AEAA7E40000F71A /* UIColor+UWExtensions.h */,
+				87BA4CBF1AEAA7E40000F71A /* UIColor+UWExtensions.m */,
+				87BA4CBB1AEAA5F10000F71A /* XColorViewController.xib */,
 				87A98AA41AE726A800C74935 /* RedViewController.h */,
 				87A98AA51AE726A800C74935 /* RedViewController.m */,
 				87A98AA61AE726A800C74935 /* RedViewController.xib */,
@@ -267,6 +280,7 @@
 				87A98A7A1AE5E2A700C74935 /* Images.xcassets in Resources */,
 				87A98AA11AE5ED2000C74935 /* colors@2x.png in Resources */,
 				87A98A961AE5E46600C74935 /* ColorViewController.xib in Resources */,
+				87BA4CBD1AEAA5F10000F71A /* XColorViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +303,8 @@
 				87A98AAE1AE7545200C74935 /* ColorCounter.m in Sources */,
 				87A98A6F1AE5E2A700C74935 /* main.m in Sources */,
 				87A98A951AE5E46600C74935 /* ColorViewController.m in Sources */,
+				87BA4CC01AEAA7E40000F71A /* UIColor+UWExtensions.m in Sources */,
+				87BA4CBC1AEAA5F10000F71A /* XColorViewController.m in Sources */,
 				87BA4CB11AE92A740000F71A /* GreenViewController.m in Sources */,
 				87BA4CB61AE92D6F0000F71A /* BlueViewController.m in Sources */,
 				87A98AA71AE726A800C74935 /* RedViewController.m in Sources */,
