@@ -12,12 +12,12 @@ presenting a View Controller with a random color. The random color is
 chosen using an extension method to UIColor that was provided with the
 homework assignment.
 
-I implemented the random color support quickly on the day the
-assignment was do. I did not provide functionality to count the number
-of times a random color has been presented--although the project does
+I implemented the random color support quickly on the day the assignment
+was due. I did not provide functionality to count the number of times
+the random color has been presented--although the project does
 demonstrate how to do this for the pre-set colors. My primary goal with
-implement random color support was to demonstrate that I could leverage
-the extension method provided.
+implementing random color support was to demonstrate that I could
+leverage the extension method provided.
 
 
 *** END ***
